@@ -25,6 +25,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.example.evan.turretsyndrum4002.Play"
+            android:label="@string/title_activity_play"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.example.evan.turretsyndrum4002.Turret"
+            android:label="@string/title_activity_turret"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.example.evan.turretsyndrum4002.Baddie"
+            android:label="@string/title_activity_baddie"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
     </application>
 
 </manifest>
